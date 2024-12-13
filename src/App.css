@@ -1,0 +1,91 @@
+/* App.css */
+
+/* Styling for the Project Showcase section */
+.project-showcase {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #1f1f1f;
+  color: #fff;
+  height: 100%;
+  width: 80%; /* Use 100% to make it responsive */
+}
+/* App.css */
+
+/* Container for both text elements */
+.text-container {
+  display: flex; /* Use flexbox to align items */
+  justify-content: space-between; /* Distribute space between items */
+  align-items: center; /* Vertically center the items */
+  padding: 40px; /* Add padding around the content */
+}
+
+/* Styling for the h2 on the left side */
+.left-side {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0; /* Remove default margin */
+  flex: 3; /* Allow h2 to take available space */
+}
+
+/* Styling for the p on the right side */
+.right-side {
+  font-size: 16px;
+  margin: 0; /* Remove default margin */
+  flex: 2; /* Allow p to take more space than h2 */
+}
+
+.project-showcase h1 {
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.project-showcase p {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the carousel container */
+.carousel-container {
+  margin-bottom: 40px; /* Adds space between carousel and the content below */
+}
+
+/* Styling for Carousel images */
+.carousel-img {
+  width: 90%;
+  height: 500px;
+  object-fit: cover;
+  margin: 0 auto; /* Centers the images */
+}
+
+/* Styling for content rows below carousel */
+.content-row {
+  margin-top: 20px;
+}
+
+.content-wrapper {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 30px; /* Spacing between columns */
+}
+
+.content-wrapper .title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+  margin-top: 70px;
+}
+
+.content-wrapper .description {
+  font-size: 25px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.content-wrapper .line {
+  height: 2px;
+  background-color: #fff;
+  width: 80%;
+  margin: 0 auto;
+}
